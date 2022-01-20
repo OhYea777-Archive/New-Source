@@ -1,0 +1,8 @@
+name: Solitary Tools
+version: 0.1
+authors: [OhYea777]
+main: com.ohyea777.solitarytools.SolitaryTools
+
+commands:
+  sreload:
+    aliases: [sr]

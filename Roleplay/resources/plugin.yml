@@ -1,0 +1,7 @@
+name: Roleplay
+version: 1.0
+main: com.ohyea777.roleplay.Roleplay
+
+commands:
+  rp:
+    description: Hai

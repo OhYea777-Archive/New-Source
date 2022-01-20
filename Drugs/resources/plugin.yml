@@ -1,0 +1,28 @@
+name: Drugs
+version: Dev_2.1
+author: OhYea777
+main: com.ohyea777.drugs.Drugs
+
+commands:
+  drugs:
+    aliases: drug
+    description: Used For Drugs
+
+permissions:
+  drugs.*:
+    description: Gives Access to All of Drugs' Permissions
+    children:
+      drugs.use.*: true
+      drugs.reload: true
+      drugs.update: true
+    default: op
+  drugs.use.*:
+    description: Gives Access to Usage of All Drugs
+    children:
+      drugs.use: true
+  drugs.use:
+    description: Gives Access to Usage of All Drugs (if \'Use_Custom_Perms\' is not set to True)
+  drugs.reload:
+    description: Gives Access to Reloading of Drugs' Configuration Files
+  drugs.update:
+    description: Allows Showing of Update Message on Login

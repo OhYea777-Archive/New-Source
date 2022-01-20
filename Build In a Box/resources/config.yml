@@ -1,0 +1,100 @@
+# Output extra logging
+debug: false
+
+# Data storage backend.  currently supports 'file' or 'ebean' (sql)
+storage-backend: file
+
+# Language selection (from lang/<language>.yml)
+language: english
+
+# milliseconds without any interaction before a BIAB's data is removed from the database.
+# eg. 90d 48h = 90 days + 48 hours.
+data-expiry: 90d
+
+# Use this block ID Instead of enderchest. (most blocks will NOT work, it must be directional)
+chest-block: 130
+
+# The Item ID of the selection tool. by default 294 (GOLD_HOE)
+selection-wand-id: 294
+
+# Automatically update the plugin
+# true - Automatically download and apply updates
+# false - do not check for updates.
+# notify-only - check for updates, but do not download or install them
+auto-update: notify-only
+
+# The time (in milliseconds) between 2 clicks on an enderchest for it to 
+# count as a double-click.
+double-click-interval: 2000
+
+# The length of time (in milliseconds) the preview is shown for
+preview-duration: 5000
+
+# apply a potion effect while carrying a building.
+# this involves scanning inventories often. use with caution.
+carry-effect: false
+carry-effect-type: SLOW
+
+# Prevent breaking blocks which belong to a building.
+protect-buildings: true
+
+# when true, locked buildings will have their chests and doors locked as well.
+lock-containers: true
+
+# if true, BIAB will generate fake BlockPlaceEvents during preview and check for cancellation
+# to determine if a building may be placed.
+check-build-permissions: true
+
+# If set to true, this will prevent players from placing any non-BIAB enderchests.
+# use this in conjunction with a protection plugin that allows per-block-type 
+# permissions, to allow for a no-build world where players can still place BIAB's
+prevent-placing-enderchests: false
+
+# allow pickup
+# if false, players will not be able to pick up buildings once they are placed. the structure becomes
+# permanent and the enderchest becomes a normal enderchest.
+allow-pickup: true
+
+# allow players to lock buildings (and other players to unlock them)
+allow-locking: true
+
+# allow players to unlock buildings that have been locked by other players.
+# (requires biab.unlock.others permission)
+allow-unlocking-others: true
+
+# time in seconds to unlock someone elses building.
+unlock-time: 10
+
+# time in seconds to unlock your own building
+unlock-time-own: 5
+
+# time in seconds to lock a building
+lock-time: 5
+
+# Costs for various actions (requires vault)
+lock-cost: 0
+unlock-cost: 0
+pickup-cost: 0
+build-cost: 0
+
+# maximum distance you can be from the enderchest which you are 
+# locking/unlocking before the attempt is cancelled.
+max-locking-distance: 5
+
+# Overall maximum block-building operations across the entire server, per tick.
+max-blocks-per-tick: 500
+
+# animation settings
+pickup-animation:
+  disable: false
+  shuffle: true
+  fireworks: 0
+  blocks-per-tick: 20
+  style: SMOKE
+
+build-animation:
+  disable: false
+  shuffle: true
+  fireworks: 0
+  blocks-per-tick: 5
+  style: BREAK

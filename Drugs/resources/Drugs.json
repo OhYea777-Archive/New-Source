@@ -1,0 +1,122 @@
+{
+  "Drugs": [
+    {
+      "Name": "Methamphetamine",
+      "Material": "SUGAR",
+      "Damage": 0,
+      "UsageMessage": "You have just smoked {drug}",
+      "DruggedMessage": "You have just been injected with {drug} by {player}",
+      "Effects": [
+        {
+          "EffectType": "Speed",
+          "Duration": 10,
+          "Strength": 5
+        },
+        {
+          "EffectType": "Haste",
+          "Duration": 10,
+          "Strength": 5
+        },
+        {
+          "EffectType": "Strength",
+          "Duration": 10,
+          "Strength": 1
+        },
+        {
+          "EffectType": "Poison",
+          "Duration": 20,
+          "Strength": 5
+        }
+      ],
+      "Commands": [
+        "burn {player} 1"
+      ]
+    },
+    {
+      "Name": "Weed",
+      "Material": "INK_SACK",
+      "Damage": 2,
+      "UsageMessage": "You have just smoked {drug}",
+      "Effects": [
+        {
+          "EffectType": "Hunger",
+          "Duration": 10,
+          "Strength": 2
+        },
+        {
+          "EffectType": "Slow",
+          "Duration": 10,
+          "Strength": 2
+        },
+        {
+          "EffectType": "SlowDigging",
+          "Duration": 10,
+          "Strength": 2
+        }
+      ],
+      "RandomEffects": [
+        {
+          "Chance": 10,
+          "EffectType": "Speed",
+          "Duration": 10,
+          "Strength": 1
+        }
+      ]
+    },
+    {
+      "Name": "Shrooms",
+      "Material": "BROWN_MUSHROOM",
+      "Damage": 0,
+      "UsageMessage": "You have just eaten {drug}",
+      "RandomEffects": [
+        {
+          "Chance": 50,
+          "EffectType": "Nausea",
+          "Duration": 10,
+          "Strength": 10
+        }
+      ]
+    },
+    {
+      "Name": "Diamond Ore",
+      "Material": "DIAMOND_ORE",
+      "UsageMessage": "You Have Just Placed {drug}!",
+      "RandomGroupEffects": [
+        {
+          "Chance": 50,
+          "Effects": [
+            {
+              "EffectType": "Speed",
+              "Duration": 10,
+              "Strength": 4
+            },
+            {
+              "EffectType": "Haste",
+              "Duration": 10,
+              "Strength": 4
+            },
+            {
+              "EffectType": "Absorbtion",
+              "Duration": 10,
+              "Strength": 4
+            }
+          ]
+        }
+      ],
+      "Swirls": [
+        {
+          "Color": "Red",
+          "Duration": 10
+        },
+        {
+          "Color": "White",
+          "Duration": 10
+        },
+        {
+          "Color": "Blue",
+          "Duration": 10
+        }
+      ]
+    }
+  ]
+}

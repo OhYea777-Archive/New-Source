@@ -1,0 +1,13 @@
+Messages:
+  Prefix: '&8[&3CraftCast&8] &7'
+  Broadcast: 'Now Playing&8: &3{Playing}&7!'
+  Request: 'You Have Requested a Song&8: &3{Request}&7!'
+  RequestReceive: 'The Player&8: &3{Player}&7 Has Requested the Song&8: &3{Request}&7!'
+  Specify: '&cYou Must Specify a Request&8: &3/request <song>&c!'
+  Reload: 'Reloaded Config!'
+  NoPerm: '&cYou Do Not Have Permission to do That!'
+
+Options:
+  Broadcast: true
+  CheckInterval: 5 #Measured in Ticks: 20 Ticks = 1 Second
+  URL: 'http://<ip>:<port>/7.html'

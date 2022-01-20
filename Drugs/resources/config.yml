@@ -1,0 +1,11 @@
+Options:
+  Prefix: '&0(&aDrugs&0)&f '
+  Check_For_Updates: true
+  Use_Custom_Perms: true
+  Max_Particle_Effects: 10
+  
+Message:
+  Reload: Config Reloaded!
+  No_Perm: '&4You Do Not Have Permission!'
+  Drug_Use: You Have Just Used {drug}
+  Drugged: You have just been drugged with {drug} by {player}

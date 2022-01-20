@@ -1,0 +1,7 @@
+name: EndlessDays
+version: 0.1
+main: com.ohyea777.endlessdays.EndlessDays
+
+commands:
+  test:
+    description: Test

@@ -1,0 +1,8 @@
+name: OhYeaCore
+version: 0.1
+main: com.ohyea777.ohyeacore.OhYeaCore
+authors: [OhYea777]
+
+commands:
+  test:
+    description: Hai

@@ -1,0 +1,63 @@
+Messages:
+  Prefix: '&8[&6VirtualVaults&8] &7'
+  BuyVault: 'You Have Just Bought a New Vault&8:&7 &6{0}&7!'
+  UpVault: 'You Have Just Upgraded Your Vault&8:&7 &6{0}&7!'
+  UpVault_Upgraded: '&cYour Vault&8:&c &6{0}&c - Is Already Upgraded!'
+  Vault_None: '&cYou Do Not Have Any Vaults!'
+  Vault_Saved: 'Your Vault&8:&7 &6{0}&7 - Has Been Saved!'
+  TooPoor: '&cYou Can Not Afford to do This! This costs &6{0}&c!'
+  EconFail: '&cError&8:&c Economy Failure'
+  NoPerm: '&cYou Do Not Have Permission To Do that!'
+  NoPerm_Place: '&cYou Do Not Have Permission To Place Vault Signs!'
+  NoPerm_Buy: '&cYou Do Not Have Permission To Buy Vaults!'
+  NoPerm_Up: '&cYou Do Not Have Permission To Upgrade Your Vault!'
+  NoPerm_Open: '&cYou Do Not Have Permission To Open Vaults!'
+
+Commands:
+  Def:
+    NoPerm: '&cYou Do Not Have Permission to Set Your Default Vault!'
+    PlayersOnly: '&cOnly Players Can Set a Default Vault!'
+    Help:
+    - '{0} Default Vault Help&8:'
+    - '&8-&6] &7To Set a Vault to Default Use &8/vault def <id>'
+    - '&8-&6] &7or Use &8/vault def <name>'
+    InvalidVault: '&cInvalid Vault!'
+    Defaulted: 'Your Vault&8: &6{0}&7 - Set to Default!'
+  Rename:
+    NoPerm: '&cYou Do Not Have Permission to Rename Your Vaults!'
+    Exists: '&cYour Vault&8: &6{0}&c - Already Exists!'
+    Renamed: 'Your Vault&8: &6{0}&7 - Has Been Renamed to&8: &6{1}'
+    Help:
+    - '{0} Rename Vault Help&8:'
+    - '&8-&6] &7To Rename a Vault Use &8/vault rename <id> <new_name>'
+    - '&8-&6] &7or Use &8/vault rename <name> <new_name>'
+
+Prices:
+  Buy: 1000
+  Up: 900
+
+Permissions:
+  Place: 'virtualvaults.place'
+  Buy: 'virtualvaults.buy'
+  Up: 'virtualvaults.up'
+  Open: 'virtualvaults.open'
+  Commands:
+    Def: 'virtualvaults.default'
+    Rename: 'virtualvaults.rename'
+
+Signs:
+  BuyVault:
+    0: '&8[&6Buy V&8]'
+    1: 'Buy a Vault'
+    2: 'to Store All'
+    3: 'of Your Items'
+  UpVault:
+    0: '&8[&6Up V&8]'
+    1: 'Upgrade Your'
+    2: 'Vault to a'
+    3: 'Large Vault'
+  Vault:
+    0: '&8[&6Vault&8]'
+    1: 'Store All of'
+    2: 'Your Items'
+    3: 'Here'

@@ -1,0 +1,26 @@
+name: CraftCast
+version: 1.0
+authors: [OhYea777]
+main: com.ohyea777.craftcast.CraftCast
+
+commands:
+  craftcast:
+    aliases: [cc]
+    description: For Information About CraftCast
+  song:
+    description: Check the Song Playing
+  request:
+    description: Request a Song
+
+permissions:
+  cc.*:
+    children:
+      cc.request.*: true
+      cc.broadcast: true
+      cc.song: true
+      cc.reload: true
+    default: OP
+  cc.request.*:
+    children:
+      cc.request: true
+      cc.request.receive: true

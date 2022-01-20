@@ -1,0 +1,9 @@
+name: VirtualVaults
+main: com.ohyea777.virtualvaults.VirtualVaults
+version: 0.1
+depend: [Vault]
+
+commands:
+  vault:
+    aliases: [gp,chest,chests,vaults,vv,virtualvault,virtualvaults]
+    description: Allows opening of vaults and shiz
